@@ -19,3 +19,11 @@
     text-decoration: none;
     color: #585858
 }
+.bgc-img{
+    width: 100%;
+    position:relative;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.5;
+}

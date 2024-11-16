@@ -1,0 +1,10 @@
+.d-flex{
+    display: flex;
+}
+.fs{
+    color: white;
+    font-size: smaller;
+}
+.jus-cont{
+justify-content: space-between;
+}

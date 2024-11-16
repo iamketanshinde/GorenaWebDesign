@@ -1,10 +1,9 @@
-.d-flex{
+*{
+    margin: 0px auto;
+    font-family: sans-serif;
+    background-color: #ffffff;
+}
+.first-div{
     display: flex;
-}
-.fs{
-    color: white;
-    font-size: smaller;
-}
-.jus-cont{
-justify-content: space-between;
+    justify-content: space-between;
 }

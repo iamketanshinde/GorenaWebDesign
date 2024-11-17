@@ -3,6 +3,9 @@
     font-family: sans-serif;
     background-color: #ffffff;
 }
+.svg-bar{
+    align-self: center;
+}
 .first-div{
     display: flex;
     padding-block: 5px;
@@ -25,5 +28,54 @@
     height: 100%;
     background-size: cover;
     background-position: center;
-    opacity: 0.5;
+    /* opacity: 0.5; */
 }
+* {
+    /* margin: 0;
+    padding: 0; */
+    box-sizing: border-box;
+  }
+  
+  .container {
+    display: flex;
+    width:100%;
+  }
+  
+  .box {
+    width: 33.33%;
+    height:400px; /* Adjust height as needed */
+    /* color: white; */
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    /* font-family: Arial, sans-serif; */
+  }
+  
+  .box1 {
+    background-image: url('https://themes.pixelwars.org/editor-html/images/blog/01.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .box2 {
+    background-image: url('https://themes.pixelwars.org/editor-html/images/blog/02.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .box3 {
+    background-image: url('	https://themes.pixelwars.org/editor-html/images/blog/03.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .box p {
+    /* background-color: rgba(0, 0, 0, 0.5); semi-transparent background for readability */
+
+    color: yellow;
+    font-weight: 600;
+    border-radius: 5px;
+    background-color: transparent;
+  }
